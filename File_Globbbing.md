@@ -23,6 +23,9 @@ the `?` only matches with a single character
 In `[cep]` c helps in finding word beginning with c i.e. challenging. Similarly, e for educational and p for pwning. 
 ## Exclusionary Globbing 
 `!` acts like a NOT like in other programming languages only when it is the first character inside the square brackets. While `^` is not limited to this case but it does not work with older version of shells.
+**Solution:**
+`cd /challenge/files`
+` /challenge/run [!pwn]*`
 
 
 
