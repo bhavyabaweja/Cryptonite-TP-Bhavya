@@ -55,7 +55,7 @@ directories can be made using `mkdir` command.
 `cd /tmp`
 `mkdir pwn`
 `cd /tmp/pwn`
-``touch college`
+`touch college`
 `ls`
 `/challenge/run`
 ## Finding Files 
