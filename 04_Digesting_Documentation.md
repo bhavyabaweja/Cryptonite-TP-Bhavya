@@ -25,8 +25,12 @@ Use:
 `man challenge`<br>
 `/challenge/challenge --puekn`
 ## Searching for Manuals
+Use the '-k' command to search through the man page.<br>
 **Solution:** <br>
 `man man`<br>
+`man -k challenge`<br>
+`man gdzbddvcbw `<br>
+`/challenge/challenge --gdzbdd 186`
 ## Helpful programs
 **Solution:** <br>
 `/challenge/challenge --help`
