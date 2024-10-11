@@ -59,7 +59,7 @@ directories can be made using `mkdir` command.
 `ls`
 `/challenge/run`
 ## Finding Files 
-use `find` command to find the files 
+use `find` command to find the files.<br> 
 `-type` tells the type of directory or file to be found 
 **Solution:**
 `find / -name flag -type f`
