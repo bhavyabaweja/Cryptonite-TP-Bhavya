@@ -21,7 +21,20 @@ Use:
 `n` to go to next result
 `N` to go to prev result
 `?` to search backwards 
-
+**Solution:** <br>
+`man challenge`<br>
+`/challenge/challenge --puekn`
+## Searching for Manuals
+**Solution:** <br>
+`man man`<br>
 ## Helpful programs
+**Solution:** <br>
+`/challenge/challenge --help`
+`/challenge/challenge --print-value`
+`/challenge/challenge -g 878`
+## Help for Builtins
+**Solution:** <br>
+`help challenge`
+`challenge --secret M2OSUc2_`
 
 
