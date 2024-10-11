@@ -25,7 +25,7 @@ ls will list files in all the directories provided to it as arguments.
 you can create blank new files using `touch` command
 **Solution:**
 `cd /tmp`
-``touch pwn`
+`touch pwn`
 `ls`
 `touch college`
 `ls`
