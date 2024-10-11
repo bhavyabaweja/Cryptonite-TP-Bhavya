@@ -26,6 +26,7 @@ A relative path is any path that does not start at root (i.e., it does not start
 `cd /`
 `challenge/run`
 ## explicit relative paths, from /
+The first, ., refers right to the same directory.<br>
 **Solution:**
 `cd /`
 `./challenge/run`
