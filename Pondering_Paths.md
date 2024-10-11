@@ -40,10 +40,12 @@ The first, ., refers right to the same directory.<br>
 `cd challenge`
 `./run`
 ## home sweet home
+Expansion of ~ is an absolute path, and only the leading ~ is expanded.<br>
+`~/~` will be expanded to `/home/hacker/~` rather than `/home/hacker/home/hacker`
 **Solution:**
 `/challenge/run ~/x`
 
-  `/challenge/run` is the command and `~/x` is the argument.
+  `/challenge/run` is the command and `~/x` is the file specified as argument.
 
 
   
