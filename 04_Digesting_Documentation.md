@@ -34,8 +34,9 @@ Use:
 `/challenge/challenge -g 878`
 ## Help for Builtins
 Builtin commands are a part of shell's functionality. Example: `cd`,`echo`,`pwd` etc.
+
 **Solution:** <br>
-`help challenge`
+`help challenge`<br>
 `challenge --secret M2OSUc2_`
 
 
