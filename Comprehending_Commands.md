@@ -71,6 +71,10 @@ A soft link or symbolic link points to original file on system.
 
 A hard link creats a copy of the file.
 
+**Solution:** <br>
+`ln -s /flag /home/hacker/not-the-flag`
+/home/hacker/not-the-flag is the symlink
+
 You use the ln command to create the links for the files and the -s option to specify that this will be a symbolic link. If you omit the -s option, then a hard link will be created instead.
 
 
