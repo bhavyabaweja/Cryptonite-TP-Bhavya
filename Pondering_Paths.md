@@ -7,7 +7,7 @@ Style of path that starts with root directory.
 ## Program and absolute paths
 Path to challenge program 'run': `/challenge/run`
 ## Position thy self
-navigate directory using cd(change directory) command and pass and argument
+navigate directory using cd(change directory) command.
 ~ shows current where shell is located at
 When i executed challenge from different directory, it asked me to go to a specific directory using cd.
 **Solution:**
