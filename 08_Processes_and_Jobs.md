@@ -25,5 +25,33 @@ Provide the PID from ps as an argument to `kill` a process.<br>
 `/challenge/run`<br>
 `^C`
 ## Suspending Processes 
+`ctrl+z` is used to suspends process without terminating it.
+**Solution:** <br>
+`/challenge/run` <br>
+`ctrl+z` <br>
+`/challenge/run`
+## Resuming Processes 
+`fg` is used to resume a suspended process and bring it to foreground. <br>
+**Solution:** <br>
+`/challenge/run` <br>
+`ctrl+z` <br>
+`fg /challenge/run`
+## Backgrounding Processes 
+Processes can be resumed in background using `bg` command. <br>
+**Solution:** <br>
+`/challenge/run` <br>
+`ctrl+z` <br>
+`bg /challenge/run` <br>
+`/challenge/run`
+## Foregrounding Processes 
+`fg` can also foreground a backgrouded process.<br>
+**Solution:** <br>
+`/challenge/run` <br>
+`ctrl+z` <br>
+`bg /challenge/run` <br>
+`fg /challenge/run`
+## 
+
+
 
 
