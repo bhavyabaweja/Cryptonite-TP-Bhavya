@@ -50,7 +50,20 @@ Processes can be resumed in background using `bg` command. <br>
 `ctrl+z` <br>
 `bg /challenge/run` <br>
 `fg /challenge/run`
-## 
+## Starting Background Processes 
+Append `&` to start background process. <br>
+**Solution:** <br>
+`/challenge/run &` <br>
+## Process Exit Codes 
+The process is finished using exit code. `0` implies that the process ran successully and `1` indicates that there was some error.<br>
+Exit code of most recently terminated process can be checked using `$?`.<br>
+**Solution:** <br>
+`/challenge/get-code` <br>
+`echo $?` <br>
+`/challenge/submit_code 229` 
+
+
+
 
 
 
