@@ -19,5 +19,12 @@ You can check what groups you are a part of using `id` command. <br>
 `chgrp grp23019 /flag` <br> 
 `cat /flag`
 ## Changing Permissions 
-`chmod` 
+`chmod` command is used for changing properties. <br>
+`chmod [-options] MODE file_name`
+
+r - user/group/other can read the file (or list the directory)
+w - user/group/other can modify the files (or create/delete files in the directory)
+x - user/group/other can execute the file as a program (or can enter the directory, e.g., using cd)
+- - nothing
+## 
 
