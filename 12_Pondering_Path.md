@@ -34,7 +34,7 @@ Without PATH, commands (like `ls`, `cd`, etc ) wont work.
 `hacker@path~hijacking-commands:~$ pwd`<br>
 `/home/hacker`<br>
 `hacker@path~hijacking-commands:~$ export PATH=/home/hacker:$PATH`<br>
-`hacker@path~hijacking-commands:~$ /challenge/run`` <br>
+`hacker@path~hijacking-commands:~$ /challenge/run` <br>
 `Trying to remove /flag...`<br>
 `Found 'rm' command at /home/hacker/rm. Executing!`<br>
 `pwn.college{QSozNlzOOCrBDI2XnLoVERvYtsr.ddzNyUDLyEDN1czW}`<br>
