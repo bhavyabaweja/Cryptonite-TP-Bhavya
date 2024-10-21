@@ -17,7 +17,14 @@ A value of * or ! functionally means that password login for the account is disa
 
 Using the command john we can give it the password file as an argument, and it will scan through and decode the password.
 **Solution:** <br>
-
+`john /challenge/shadow-leak`<br>
+`john --show /challenge/shadow-leak`<br>
+`su zardus`<br>
+Input Password
+`/challenge/run`<br>
 ## Using sudo 
+Unlike su, where you would typically switch to another user (such as root), sudo allows you to execute specific commands with root privileges while still being logged in as your regular user.<br>
+**Solution:** <br>
+`sudo cat /flag`<br>
 
 
