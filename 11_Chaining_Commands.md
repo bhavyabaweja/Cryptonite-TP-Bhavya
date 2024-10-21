@@ -17,4 +17,11 @@ Piping (|) from your script to another program. Like before, you need to create 
 `code x.sh`<br>
 `bash x.sh | /challenge/solve`<br>
 ## Executable Shell Scripts 
+The need to invoke `bash` can be avoided.<br>
+If shell script is executabe it can be invoked using it's absolute or relative path.<br>
+**Solution:** <br>
+`touch script.sh`<br>
+`code script.sh`<br>
+`chmod +x script.sh`<br>
+`./script.sh`<br>
 
