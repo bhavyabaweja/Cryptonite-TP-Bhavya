@@ -6,3 +6,7 @@ Without PATH, commands (like `ls`, `cd`, etc ) wont work.
 ` PATH=""`<br>
 `/challenge/run`<br>
 ## Setting PATH 
+**Solution:** <br>
+` PATH=/challenge/more_commands/` <br>
+`/challenge/run` <br>
+## Adding Commands 
