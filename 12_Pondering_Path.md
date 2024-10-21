@@ -11,29 +11,34 @@ Without PATH, commands (like `ls`, `cd`, etc ) wont work.
 `/challenge/run` <br>
 ## Adding Commands 
 **Solution:** <br>
-`hacker@path~adding-commands:~$ nano win`
+`hacker@path~adding-commands:~$ nano win`<br>
+`hacker@path~adding-commands:~$ cat win`<br>
+`cat /flag`<br>
+`hacker@path~adding-commands:~$ chmod +x win` <br> 
+`hacker@path~adding-commands:~$ echo $PATH` <br>
+`/nix/store/3v4hdb2gmpj7jv2z848ikakhzl9rjgwh-code-server/libexec/code-server/lib/vscode/bin/remote-cli:/run/challenge/bin:/run/workspace/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`<br>
+`hacker@path~adding-commands:~$ PATH=$PATH:/home/hacker`<br>
+`hacker@path~adding-commands:~$ echo $PATH`<br>
+`/nix/store/3v4hdb2gmpj7jv2z848ikakhzl9rjgwh-code-server/libexec/code-server/lib/vscode/bin/remote-cli:/run/challenge/bin:/run/workspace/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/hacker`<br>
+`hacker@path~adding-commands:~$ /challenge/run`<br>
+`Invoking 'win'....`<br>
 
-hacker@path~adding-commands:~$ cat win
+`pwn.college{AUAPy6vefK7TJfjpzt_SBJn0UA2.dZzNyUDLyEDN1czW}`<br>
 
-cat /flag
+## Hijacking Commands
+**Solution:** <br>
+`hacker@path~hijacking-commands:~$ nano rm`<br>
+`hacker@path~hijacking-commands:~$ ls -l rm`<br>
+`-rw-r--r-- 1 hacker hacker 10 Oct 21 20:36 rm`<br>
+`hacker@path~hijacking-commands:~$ chmod a=rwx rm`<br>
+`hacker@path~hijacking-commands:~$ pwd`<br>
+`/home/hacker`<br>
+`hacker@path~hijacking-commands:~$ export PATH=/home/hacker:$PATH`<br>
+`hacker@path~hijacking-commands:~$ /challenge/run`` <br>
+`Trying to remove /flag...`<br>
+`Found 'rm' command at /home/hacker/rm. Executing!`<br>
+`pwn.college{QSozNlzOOCrBDI2XnLoVERvYtsr.ddzNyUDLyEDN1czW}`<br>
 
-hacker@path~adding-commands:~$ chmod +x win 
-
-hacker@path~adding-commands:~$ echo $PATH
-
-/nix/store/3v4hdb2gmpj7jv2z848ikakhzl9rjgwh-code-server/libexec/code-server/lib/vscode/bin/remote-cli:/run/challenge/bin:/run/workspace/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-
-hacker@path~adding-commands:~$ PATH=$PATH:/home/hacker
-
-hacker@path~adding-commands:~$ echo $PATH
-
-/nix/store/3v4hdb2gmpj7jv2z848ikakhzl9rjgwh-code-server/libexec/code-server/lib/vscode/bin/remote-cli:/run/challenge/bin:/run/workspace/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/hacker
-
-hacker@path~adding-commands:~$ /challenge/run
-
-Invoking 'win'....
-
-pwn.college{AUAPy6vefK7TJfjpzt_SBJn0UA2.dZzNyUDLyEDN1czW}`<br>
 
 
 
