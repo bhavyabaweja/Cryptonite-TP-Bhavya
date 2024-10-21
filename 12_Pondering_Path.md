@@ -11,7 +11,7 @@ Without PATH, commands (like `ls`, `cd`, etc ) wont work.
 `/challenge/run` <br>
 ## Adding Commands 
 **Solution:** <br>
-`hacker@path~adding-commands:~$ nano win
+`hacker@path~adding-commands:~$ nano win`
 
 hacker@path~adding-commands:~$ cat win
 
