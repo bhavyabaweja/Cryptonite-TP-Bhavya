@@ -52,6 +52,7 @@ Processes can be resumed in background using `bg` command. <br>
 `fg /challenge/run`
 ## Starting Background Processes 
 Append `&` to start background process. <br>
+The process will run in background.<br>
 **Solution:** <br>
 `/challenge/run &` <br>
 ## Process Exit Codes 
