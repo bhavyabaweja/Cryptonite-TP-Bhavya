@@ -23,7 +23,7 @@ You can redirect input in append mode using `>>` instead of `>`.<br>
 ` cat /home/hacker/the-flag`
 ## Redirecting errors 
 Error channel can also be redirected just like the output.<br>
-A File Descriptor (FD) is a number the describes a communication channel in Linux. You've already been using them, even though you didn't realize it. We're already familiar with three:
+A File Descriptor (FD) is a number that describes a communication channel in Linux. You've already been using them, even though you didn't realize it. We're already familiar with three:
 
 FD 0: Standard Input
 FD 1: Standard Output
