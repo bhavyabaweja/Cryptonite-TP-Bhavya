@@ -10,9 +10,9 @@ the `?` only matches with a single character
 ` /challenge/run`
 ## Matching with []
 [] are a limited form of `?`. They find the characters specified within the square brackets only.
-**Solution:**
-`cd /challenge/files `
-`/challenge/run file_[absh]`
+**Solution:** <br>
+`cd /challenge/files `<br>
+`/challenge/run file_[absh]`<br>
 ## Matching paths with []
 **Solution:** 
 `/challenge/run /challenge/files/file_[absh]`
