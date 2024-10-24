@@ -36,6 +36,7 @@ Using `.` in a path does not change the location; it essentially points to the s
 `..` (Parent Directory):<br>
 Represents the directory one level up from the current directory.<br>
 It is used to navigate upwards in the directory structure.
+
 **Solution:**
 `cd /`
 `./challenge/run`
