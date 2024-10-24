@@ -51,7 +51,7 @@ It is used to navigate upwards in the directory structure.
 `./run`
 ## home sweet home
 Expansion of ~ is an absolute path, and only the leading ~ is expanded.<br>
-`~/~` will be expanded to `/home/hacker/~` rather than `/home/hacker/home/hacker`
+`~/~` will be expanded to `/home/hacker/~` rather than `/home/hacker/home/hacker`. The second `~` will be treated as a regular file name.
 **Solution:**
 `/challenge/run ~/x`
 
