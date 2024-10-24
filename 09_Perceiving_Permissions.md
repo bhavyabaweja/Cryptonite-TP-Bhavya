@@ -53,7 +53,7 @@ a: All (u + g + o)<br>
 `chmod` can also simply set permissions altogether, overwriting the old ones. This is done by using `=` instead of `-` or `+`.<br>
 Rest it was same as previous question
 ## The SUID Bit 
-The "Set User ID" (SUID) permissions bit allows the user to run a program as the owner of that program's file.<br>
+The "Set User ID" (SUID) permissions bit allows the user to run a program with the owner permissions of that program's file.<br>
 As the owner of a file, you can set a file's SUID bit by using chmod:
 
 `chmod u+s [program]`
