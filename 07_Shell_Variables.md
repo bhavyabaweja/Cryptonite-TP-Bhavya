@@ -32,7 +32,7 @@ FORMAT: `read -p "prompt" VAR_NAME`
 `read -p "INPUT: " PWN `<br>
 `INPUT: COLLEGE`
 ## Reading Files
-`read` is also used to read entire files into a variable using stdi operator(`<`).<br>
+`read` is also used to read entire files into a variable using stdin operator(`<`).<br>
 **Solution:** <br>
 `read PWN < /challenge/read_me`
 
