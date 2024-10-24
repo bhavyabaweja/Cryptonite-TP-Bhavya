@@ -27,6 +27,15 @@ A relative path is any path that does not start at root (i.e., it does not start
 `challenge/run`
 ## explicit relative paths, from /
 The first, ., refers right to the same directory.<br>
+Implicit Directory Entries
+`.` (Current Directory):
+
+Represents the directory you are currently in.
+Using . in a path does not change the location; it essentially points to the same directory.
+`..` (Parent Directory):
+
+Represents the directory one level up from the current directory.
+It is used to navigate upwards in the directory structure.
 **Solution:**
 `cd /`
 `./challenge/run`
