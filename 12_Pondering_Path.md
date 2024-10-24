@@ -1,5 +1,6 @@
 ## The PATH Variable 
-There is a special shell variable, called PATH, that stores a bunch of directory paths in which the shell will search for programs corresponding to commands.
+There is a special shell variable, called PATH, that stores a bunch of directory paths in which the shell will search for programs corresponding to commands.<br>
+The PATH variable is crucial in a Linux , as it defines the directories the shell searches when you enter a command. If the directories where your executable commands are located aren't included in the PATH variable, the shell won't be able to find those commands, resulting in an error.
 
 Without PATH, commands (like `ls`, `cd`, etc ) wont work.
 **Solution:** <br>
