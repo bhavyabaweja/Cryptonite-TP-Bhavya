@@ -4,7 +4,6 @@
 
 **Solution:** 
 `echo PWN > COLLEGE`
-``
 
 The output of `echo PWN` which will be PWN will be redirected to file named COLLEGE
 ## Redirecting more output 
