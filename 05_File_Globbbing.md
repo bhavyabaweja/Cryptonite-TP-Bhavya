@@ -1,6 +1,6 @@
 # File Globbing 
 ## Matching with *
-When * is encountered the shell treats it as a wildcard and replaced it the files of matching pattern 
+When * is encountered the shell treats it as a wildcard and replaces it the files of matching pattern 
 **Solution:**
 `cd /ch*`
 `/challenge/run `
