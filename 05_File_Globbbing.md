@@ -9,7 +9,7 @@ the `?` only matches with a single character
 ` cd /?ha??enge `
 ` /challenge/run`
 ## Matching with []
-[] are a limited form of `?`. They find the characters specified witin the square brackets only.
+[] are a limited form of `?`. They find the characters specified within the square brackets only.
 **Solution:**
 `cd /challenge/files `
 `/challenge/run file_[absh]`
