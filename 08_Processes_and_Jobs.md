@@ -56,7 +56,7 @@ The process will run in background.<br>
 **Solution:** <br>
 `/challenge/run &` <br>
 ## Process Exit Codes 
-The process is finished using exit code. `0` implies that the process ran successully and `1` indicates that there was some error.<br>
+The process is finished using exit code. This exit code is crucial for determining whether the process completed successfully or encountered an error. `0` implies that the process ran successully and `1` or any other value indicates that there was some error.<br>
 Exit code of most recently terminated process can be checked using `$?`.<br>
 **Solution:** <br>
 `/challenge/get-code` <br>
