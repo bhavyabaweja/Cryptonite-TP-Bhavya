@@ -10,6 +10,7 @@ Without PATH, commands (like `ls`, `cd`, etc ) wont work.
 ` PATH=/challenge/more_commands/` <br>
 `/challenge/run` <br>
 ## Adding Commands 
+`ls -l` is used to list the permissions.<br>
 **Solution:** <br>
 `hacker@path~adding-commands:~$ nano win`<br>
 `hacker@path~adding-commands:~$ cat win`<br>
