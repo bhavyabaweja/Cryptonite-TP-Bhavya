@@ -45,6 +45,10 @@ User permissions: No changes needed (already rw-).<br>
 Group permissions: Add write (w) and execute (x) permissions to the group.<br>
 World (others) permissions: No changes needed (already r--).<br>
 To achieve this, you can use the `chmod` command. Specifically, you need to add write and execute permissions for the group (g+wx).<br>
+u: Owner<br>
+g: Group<br>
+o: Others<br>
+a: All (u + g + o)<br>
 ## Permissions Setting Practice 
 `chmod` can also simply set permissions altogether, overwriting the old ones. This is done by using `=` instead of `-` or `+`.<br>
 Rest it was same as previous question
